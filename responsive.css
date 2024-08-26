@@ -1,0 +1,57 @@
+@media (max-width: 935px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .elementos-topo {
+        padding: 0 30px;
+    }
+
+    .feed {
+        margin: 0;
+    }
+}
+
+@media (max-width:614px) {
+    .rodape {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px solid #dbdbdb;
+        background-color: #FFFFFF;
+        position: fixed;
+        z-index: 1;
+        bottom: 0;
+        width: 100%;
+        height: 54px;
+        font-size: 22px;
+    }
+
+    .icons-topo {
+        display: none;
+    }
+
+    .elementos-topo {
+        justify-content: center;
+    }
+
+    .conteudo,
+    .feed {
+        width: 100vw;
+    }
+
+    .imagem-post img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .stories {
+        border: 0;
+        margin: 0;
+        background-color: #fafafa;
+    }
+}
